@@ -4,4 +4,4 @@
  
 具体做法 git checkout file 同时恢复多个被删除的文件：
 git ls-files -d | xargs -i git checkout {}
-this is on the cloud
+this is on the cloud I don`t konw why I cannot commit
