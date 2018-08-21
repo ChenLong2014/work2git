@@ -1,0 +1,41 @@
+udo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+ sudo chmod a+x /usr/local/bin/youtube-dl
+
+ sudo pip install youtube-dl
+ youtube-dl -f 22 https://www.youtube.com/watch?v=1_HBTJyWgNA&index=7&list=PLJV_el3uVTsPy9oCRY30oBPNLCo89yu49
+
+
+ 
+ 
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get install git
+git --version
+git config --global user.name ""
+git config --global user.email ""
+
+ssh-keygen -t rsa -C ""
+vi ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+git clone https://github.com/
+
+
+
+
+
+
+
+
+git branch test
+git checkout test
+git status
+git branch --set-upstream-to=develop test
+git status
+vi README.md
+git status
+git add README.md
+git commit
+git pull
+git remote add develop git@github.com
+git push develop
+
